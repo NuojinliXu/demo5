@@ -156,6 +156,7 @@
         for(int i = index; i < this.size-1;i++){
             this.data[i] = this.data[i+1];
         }
+        size--;
         return (E)temp;
     }
     //this method returns the size of data
